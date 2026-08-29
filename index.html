@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dark Thigh Recovery System — Babatunde S.</title>
+<!--
+  HOW TO USE THIS FILE
+  ---------------------
+  1. Search for ₦7,500, ₦12,000, https://nestuge.com/darkthighrecovery and replace with your real numbers/link.
+     There are multiple instances of each — use find & replace.
+  2. Images are intentionally omitted from this version.
+  3. The social-proof demo sections have been replaced with factual guide information.
+  4. Paste this whole file into an Elementor "HTML" widget, or host it as a standalone page.
+-->
+<style>
+  :root{
+    --bg:#FBF8F4;
+    --panel:#F1EAE0;
+    --ink:#241B1D;
+    --ink-soft:#5B4A48;
+    --line:#E4DCD2;
+    --accent:#B5652B;
+    --accent-deep:#7A431C;
+    --cta:#A23B2E;
+    --cta-hover:#82301F;
+    --success-bg:#EFF3EA;
+    --success-line:#9DB593;
+    --success-ink:#3F5A3E;
+    --placeholder-bg:#EFE7DB;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+    font-size:18px;
+    line-height:1.75;
+  }
+  .wrap{max-width:700px;margin:0 auto;padding:0 22px;}
+  h1,h2,h3{
+    font-family:"Iowan Old Style",Georgia,"Times New Roman",serif;
+    color:var(--ink);
+    line-height:1.25;
+    font-weight:600;
+  }
+  .eyebrow{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:12px;
+    color:var(--accent-deep);
+    font-weight:700;
+  }
+  a{color:var(--accent-deep);}
+  hr{border:none;border-top:1px solid var(--line);margin:44px 0;}
+  .center{text-align:center;}
+  p{margin:0 0 1.3em;}
+
+  /* top bar */
+  .topbar{background:var(--ink);color:#F1EAE0;padding:16px 0;}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;}
+  .topbar .brand{font-family:"Iowan Old Style",Georgia,serif;font-size:19px;letter-spacing:.02em;}
+  .topbar .tag{font-family:"Helvetica Neue",Arial,sans-serif;font-size:12px;color:#C9BDB0;letter-spacing:.04em;}
+
+  /* hero */
+  .hero{padding:52px 0 20px;}
+  .hero h1{font-size:34px;margin:14px 0 10px;}
+  .hero .sub{font-size:19px;color:var(--ink-soft);font-style:italic;margin-bottom:18px;}
+  .byline{font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;color:var(--ink-soft);letter-spacing:.02em;margin-bottom:26px;}
+
+  .img-placeholder{
+    background:var(--placeholder-bg);
+    border:1px dashed #C7B9A6;
+    color:#8A7A67;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:13px;
+    text-align:center;
+    padding:38px 16px;
+    border-radius:4px;
+    margin:20px 0 36px;
+  }
+
+  /* pull quote */
+  blockquote{
+    margin:32px 0;
+    padding:4px 0 4px 22px;
+    border-left:3px solid var(--accent);
+    font-style:italic;
+    color:var(--ink-soft);
+    font-size:20px;
+  }
+  blockquote.speaker{
+    background:var(--panel);
+    border-left:3px solid var(--accent-deep);
+    padding:20px 24px;
+    border-radius:2px;
+    font-size:18px;
+  }
+  blockquote.speaker .who{
+    display:block;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-style:normal;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    color:var(--accent-deep);
+    margin-bottom:8px;
+  }
+
+  /* big idea / info box */
+  .box{
+    border:1px solid var(--line);
+    background:var(--panel);
+    padding:26px 28px;
+    border-radius:4px;
+    margin:30px 0;
+  }
+  .box h3{margin-top:0;font-size:20px;}
+
+  /* ingredient cards */
+  .ingredient{
+    border-left:3px solid var(--accent);
+    padding-left:18px;
+    margin:22px 0;
+  }
+  .ingredient .name{font-weight:700;font-size:19px;display:block;margin-bottom:4px;}
+  .ingredient .tag2{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--accent-deep);
+    display:block;
+    margin-bottom:6px;
+  }
+
+  /* checklist */
+  ul.checklist{list-style:none;padding:0;margin:22px 0;}
+  ul.checklist li{
+    padding-left:30px;
+    position:relative;
+    margin-bottom:16px;
+  }
+  ul.checklist li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    top:0;
+    color:var(--success-ink);
+    font-weight:700;
+  }
+  ul.checklist li .lead{font-weight:700;}
+  ul.checklist li .pg{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+
+  /* comparison table */
+  .compare{width:100%;border-collapse:collapse;margin:22px 0;font-size:16px;}
+  .compare th{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    text-align:left;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--ink-soft);
+    border-bottom:1px solid var(--line);
+    padding:10px 8px;
+  }
+  .compare td{
+    padding:14px 8px;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+  }
+  .compare td.x{color:var(--cta);font-weight:700;width:24px;}
+  .compare tr.real td{font-weight:700;font-style:italic;}
+
+  /* bonuses */
+  .bonus{
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:22px 24px;
+    margin:18px 0;
+    background:#fff;
+  }
+  .bonus .num{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent-deep);
+    font-weight:700;
+  }
+  .bonus h4{margin:6px 0 8px;font-size:19px;font-family:"Iowan Old Style",Georgia,serif;}
+  .bonus .value{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  .bonus .value .free{color:var(--success-ink);font-weight:700;}
+
+  /* price block */
+  .price-block{
+    background:var(--ink);
+    color:#F1EAE0;
+    padding:40px 30px;
+    border-radius:6px;
+    text-align:center;
+    margin:34px 0;
+  }
+  .price-block .label{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-size:12px;
+    color:#C9BDB0;
+  }
+  .price-block .old{
+    text-decoration:line-through;
+    color:#C9BDB0;
+    font-size:20px;
+    margin-top:14px;
+  }
+  .price-block .new{
+    font-family:"Iowan Old Style",Georgia,serif;
+    font-size:46px;
+    font-weight:700;
+    color:#E8B65C;
+    margin:6px 0 14px;
+  }
+  .price-block .scarcity{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:13px;
+    color:#C9BDB0;
+    margin-bottom:20px;
+  }
+
+  .cta-btn{
+    display:block;
+    max-width:420px;
+    margin:0 auto;
+    background:var(--cta);
+    color:#fff !important;
+    text-decoration:none;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+    font-size:15px;
+    text-align:center;
+    padding:17px 28px;
+    border-radius:3px;
+    transition:background .15s ease;
+  }
+  .cta-btn:hover{background:var(--cta-hover);}
+  .cta-sub{
+    text-align:center;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-top:10px;
+  }
+
+  /* guarantee */
+  .guarantee{
+    background:var(--success-bg);
+    border:1px solid var(--success-line);
+    border-radius:4px;
+    padding:26px 28px;
+    margin:30px 0;
+  }
+  .guarantee h3{color:var(--success-ink);margin-top:0;}
+
+  /* guide highlights */
+  .testi-instructions{
+    border:1px dashed #C7B9A6;
+    background:var(--placeholder-bg);
+    border-radius:4px;
+    padding:24px 26px;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:14px;
+    color:#6B5A47;
+    line-height:1.6;
+  }
+  .testi-instructions strong{color:var(--accent-deep);}
+
+  /* sample testimonial cards — dummy layout data */
+  .testi-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:3px solid var(--accent);
+    border-radius:4px;
+    padding:20px 22px;
+    margin:16px 0;
+  }
+  .testi-card .row{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+  }
+  .testi-card .avatar{
+    width:38px;height:38px;border-radius:50%;
+    background:var(--panel);
+    color:var(--accent-deep);
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+    font-size:14px;
+  }
+  .testi-card .who{font-family:"Helvetica Neue",Arial,sans-serif;}
+  .testi-card .who .n{font-weight:700;font-size:14px;color:var(--ink);}
+  .testi-card .who .loc{font-size:12px;color:var(--ink-soft);}
+  .testi-card .stars{color:var(--accent);letter-spacing:2px;font-size:13px;}
+  .testi-card p{margin:0;color:var(--ink-soft);font-style:italic;}
+
+  /* common questions */
+  .comment{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);}
+  .comment .avatar{
+    width:34px;height:34px;border-radius:50%;flex-shrink:0;
+    background:var(--ink);color:#F1EAE0;
+    font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:13px;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .comment .body{font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px;}
+  .comment .meta{margin-bottom:4px;}
+  .comment .meta .n{font-weight:700;color:var(--ink);margin-right:8px;}
+  .comment .meta .loc{color:var(--ink-soft);margin-right:8px;}
+  .comment .meta .t{color:var(--ink-soft);font-size:12px;}
+  .comment .text{color:var(--ink-soft);line-height:1.5;}
+  .comment .like{font-size:12px;color:var(--accent-deep);margin-top:6px;display:inline-block;}
+
+  /* quick routine preview */
+  .wa-demo{
+    background:#0B141A;
+    border-radius:8px;
+    overflow:hidden;
+    max-width:420px;
+    margin:24px auto;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+  }
+  .wa-demo .wa-head{
+    background:#1F2C33;
+    color:#E9EDEF;
+    padding:12px 16px;
+    font-size:14px;
+    font-weight:700;
+    border-bottom:1px solid #263640;
+  }
+  .wa-demo .wa-head .sub{display:block;font-size:11px;font-weight:400;color:#8696A0;margin-top:2px;}
+  .wa-demo .wa-body{padding:14px 12px;display:flex;flex-direction:column;gap:8px;}
+  .wa-bubble{
+    max-width:78%;
+    padding:8px 12px;
+    border-radius:8px;
+    font-size:13px;
+    color:#E9EDEF;
+    line-height:1.4;
+  }
+  .wa-bubble.in{background:#202C33;align-self:flex-start;border-top-left-radius:0;}
+  .wa-bubble.out{background:#005C4B;align-self:flex-end;border-top-right-radius:0;}
+  .wa-bubble .t{display:block;font-size:10px;color:#8696A0;text-align:right;margin-top:4px;}
+  .wa-note{
+    text-align:center;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12px;
+    color:var(--ink-soft);
+    font-style:italic;
+    margin-top:-6px;
+  }
+
+  /* faq */
+  details{
+    border-bottom:1px solid var(--line);
+    padding:16px 0;
+  }
+  summary{
+    font-weight:700;
+    cursor:pointer;
+    font-size:18px;
+    list-style:none;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"+";float:right;color:var(--accent-deep);font-weight:700;}
+  details[open] summary::after{content:"–";}
+  details p{margin-top:12px;color:var(--ink-soft);}
+
+  /* two choice */
+  .choices{display:flex;gap:22px;flex-wrap:wrap;margin:26px 0;}
+  .choice{flex:1;min-width:250px;padding:24px;border-radius:4px;}
+  .choice.no{background:#EFEAE3;}
+  .choice.yes{background:#fff;border:1px solid var(--line);}
+  .choice h4{margin-top:0;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);}
+  .choice ul{margin:0;padding-left:20px;}
+  .choice li{margin-bottom:10px;}
+
+  .disclaimer{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.6;
+    background:var(--panel);
+    padding:20px 22px;
+    border-radius:4px;
+  }
+
+  footer{padding:40px 0 60px;text-align:center;font-family:"Helvetica Neue",Arial,sans-serif;font-size:12px;color:var(--ink-soft);}
+
+  @media(max-width:600px){
+    body{font-size:16.5px;}
+    .hero h1{font-size:27px;}
+    .price-block .new{font-size:36px;}
+    .choices{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="brand">Babatunde S.</span>
+    <span class="tag">Skincare, explained plainly</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Skin &amp; Hyperpigmentation</span>
+    <h1>How to Actually Fade Dark Inner Thighs — Without Harsh Bleaching Creams, Steaming, or Shame</h1>
+    <p class="sub">A 14-day, dermatology-backed system built around four ingredients that actually work — explained by the person who's spent years helping women fix this quietly.</p>
+    <p class="byline">By Babatunde S. — Skincare researcher &amp; content creator</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- OPENING HOOK -->
+  <p>If you've looked down at your own skin more times than you can count and wondered what happened — and why nobody warned you this could happen in the first place — this page is for you.</p>
+
+  <p>You already know why you're still reading. Maybe it's the beach trip your friends keep planning that you keep finding a reason to skip. Maybe it's the moment you catch your own reflection getting dressed and look away a little faster than you used to. Maybe it's someone you're close to, and the small, constant calculation of how much light is in the room.</p>
+
+  <p>This thing has been quietly making decisions for you. What you wear. Where you go. How close you let someone get.</p>
+
+  <p>Here's what I need you to know before anything else: this is one of the most common skin concerns women deal with — and one of the least talked about, simply because it lives in a part of the body nobody sees unless you choose to let them. That privacy is exactly why it feels so isolating, even though so many women near you are dealing with the exact same thing right now.</p>
+
+  <p>It has nothing to do with cleanliness. It never did.</p>
+
+  <blockquote>Once you understand what's actually happening under your skin, the shame around it tends to just&nbsp;… evaporate.</blockquote>
+
+  <hr>
+
+  <!-- WHY NOTHING HAS WORKED -->
+  <h2>Why Everything You've Already Tried Hasn't Worked</h2>
+
+  <p>I'd guess this isn't your first attempt at fixing this. Let's go through the usual suspects, one at a time.</p>
+
+  <p><strong>The market soap.</strong> Somebody's aunty, somebody's hairdresser, somebody's cousin's friend swore by it. Weeks of using it religiously later, nothing changed — maybe your skin even felt rougher. Most of these soaps are made for the whole body, not for a delicate, already-irritated area. They add stress to skin that's already struggling. They don't fix the problem.</p>
+
+  <p><strong>Lemon juice.</strong> Cheap, already in the kitchen, and somebody told you citric acid lightens skin. But raw lemon juice is highly acidic and doesn't distinguish between helping your skin and burning it. On already-sensitive skin, it often makes the discoloration worse, not better.</p>
+
+  <p><strong>The Instagram cream.</strong> This one hurts differently, because it wasn't just time you lost — it was money too. The before-and-afters looked convincing. Weeks later the tub sits half-used in your bathroom cabinet. Most of these products don't disclose what's actually in them, and many lean on harsh bleaching agents that lighten skin unevenly, or damage it, instead of healing it.</p>
+
+  <p>None of those failed because you did something wrong. They failed because every one of them treated the surface without understanding what was actually happening underneath it.</p>
+
+  <hr>
+
+  <!-- REAL CAUSE -->
+  <h2>The Actual Cause — In Plain English</h2>
+
+  <p>Your skin has cells called <strong>melanocytes</strong>, and their job is to produce melanin — the pigment that gives skin its color. Normally they work quietly in the background. But when skin in one spot is irritated repeatedly — through friction, shaving, or tight clothing rubbing against it day after day — those melanocytes get triggered. They go into overdrive, producing extra melanin as a kind of defense response.</p>
+
+  <p>That extra melanin is the darker patch you're seeing. It's called <strong>post-inflammatory hyperpigmentation</strong> — the same process behind a dark mark left after a pimple heals.</p>
+
+  <p>Your skin isn't broken. It's doing something it was designed to do, just in a spot you'd rather it didn't. Inner thighs take more repeated friction than almost anywhere else on your body — walking, shaving, tight jeans — which is exactly why this is one of the most common places for it to show up.</p>
+
+  <div class="box">
+    <h3>The Big Idea</h3>
+    <p>If the problem is repeated irritation triggering extra melanin production, the fix isn't a mystery. It comes down to two things working together: <strong>calming the irritation response</strong>, and <strong>helping your skin let go of the extra pigment it's already built up.</strong></p>
+    <p>That's the whole game. Not a miracle cream. Not a magic soap. A structured process that addresses both sides of the problem, in the right order.</p>
+  </div>
+
+  <hr>
+
+  <!-- PRODUCT INTRO -->
+  <div class="box" style="background:#fff;">
+    <span class="eyebrow">Now Available</span>
+    <h2 style="margin-top:8px;">The Dark Thigh Recovery System</h2>
+    <p style="font-style:italic;color:var(--ink-soft);">A 14-day plan, broken into three phases, built around the four ingredients that dermatology actually backs.</p>
+
+    <p>Everything I've learned from years of walking women through this — documented, verified, and written in plain language, so you can start tonight.</p>
+  </div>
+
+  <h3>The Three Phases</h3>
+  <p><strong>Phase One — Understand (Days 1–2).</strong> A quick self-check, a day-one photo (your own eyes lie about gradual change — a photo doesn't), and choosing the right active ingredient for your skin.</p>
+  <p><strong>Phase Two — Act (Days 3–14).</strong> A simple daily routine built around your chosen active, plus the one step almost every guide forgets — the step that quietly undoes progress if you skip it.</p>
+  <p><strong>Phase Three — Lock It In (Beyond Day 14).</strong> The five-minute weekly habit that keeps it from creeping back in six months, which is where most people who "fix" this once end up right back where they started.</p>
+
+  <h3>The Four Ingredients</h3>
+
+  <div class="ingredient">
+    <span class="tag2">Best for sensitive skin / first-time actives</span>
+    <span class="name">Niacinamide</span>
+    Interrupts the process that moves melanin from your skin cells to the surface — and calms the irritation that started this whole cycle in the first place.
+  </div>
+
+  <div class="ingredient">
+    <span class="tag2">Best for faster visible change</span>
+    <span class="name">Glycolic Acid</span>
+    Gently exfoliates the outer layer, speeding up how quickly your skin sheds pigmented cells and replaces them with fresh ones underneath.
+  </div>
+
+  <div class="ingredient">
+    <span class="tag2">Best for stubborn, long-standing discoloration</span>
+    <span class="name">Kojic Acid</span>
+    Blocks the enzyme your skin uses to produce melanin in the first place — going straight to the source.
+  </div>
+
+  <div class="ingredient">
+    <span class="tag2">Best for reactive skin that still wants results</span>
+    <span class="name">Azelaic Acid</span>
+    The quiet all-rounder — targets excess pigment while calming inflammation at the same time.
+  </div>
+
+  <hr>
+
+  <!-- WHAT'S INSIDE -->
+  <h2>What's Inside the Guide</h2>
+  <ul class="checklist">
+    <li><span class="lead">The full 14-day, three-phase system</span> — exactly what to do, day by day. <span class="pg">Ch. 4–7</span></li>
+    <li><span class="lead">How to pick the right active ingredient for your skin type</span> — instead of guessing and irritating yourself. <span class="pg">Ch. 5</span></li>
+    <li><span class="lead">The one mistake that quietly cancels your progress</span> — the step almost everyone forgets. <span class="pg">Ch. 6</span></li>
+    <li><span class="lead">The patch-test protocol</span> — so you never repeat the mistake that costs a full week of setback. <span class="pg">Ch. 5</span></li>
+    <li><span class="lead">Bonus: the pharmacy shopping list</span> — exact ingredient names and concentrations to ask for, and what to avoid on the label. <span class="pg">Bonus 2</span></li>
+    <li><span class="lead">Bonus: the Flare-Up Fix</span> — what to do if your skin reacts, and when a reaction actually means "see a doctor." <span class="pg">Bonus 3</span></li>
+    <li><span class="lead">The five-minute weekly habit</span> that keeps this from quietly returning in six months. <span class="pg">Ch. 7</span></li>
+    <li><span class="lead">The Quick Reference Cheat Sheet</span> — the entire system on one page you can keep on your phone. <span class="pg">Bonus 1</span></li>
+  </ul>
+
+  <div class="disclaimer">
+    You don't need to travel anywhere or track down anything exotic. Every ingredient in this system is available at general pharmacies and supermarket skincare aisles. Total cost of materials is typically a fraction of what most women have already spent on things that didn't work.
+  </div>
+
+  <hr>
+
+  <!-- COST COMPARISON -->
+  <h2>Compare That To What You've Already Spent</h2>
+  <table class="compare">
+    <tr><th>Tried</th><th></th><th>Why it didn't work</th></tr>
+    <tr><td>Market soap, weeks of use</td><td class="x">✗</td><td>Made for the whole body, not delicate, irritated skin</td></tr>
+    <tr><td>Lemon juice</td><td class="x">✗</td><td>Highly acidic — often irritates the area further</td></tr>
+    <tr><td>Instagram "miracle" cream</td><td class="x">✗</td><td>Undisclosed ingredients, often harsh bleaching agents</td></tr>
+    <tr><td>A traditional remedy from a relative</td><td class="x">✗</td><td>No way to know what's actually addressing the cause</td></tr>
+    <tr><td>Doing nothing, hoping it fades on its own</td><td class="x">✗</td><td>Untreated friction just keeps re-triggering the same cycle</td></tr>
+    <tr class="real"><td colspan="2">The real cost — the one nobody puts a number on</td><td>Every beach trip skipped. Every excuse made. Every moment you didn't let someone get close.</td></tr>
+  </table>
+
+  <hr>
+
+  <!-- PRICE -->
+  <h2>How Much Does This Cost?</h2>
+  <p>Between research, writing, dermatology-informed fact-checking, design, and building the delivery system, putting this guide together took real time and real cost. A fair price for the finished system would sit well above what I'm actually charging.</p>
+  <p>But I know money is tight for a lot of the women reading this. So here's where it lands, today:</p>
+
+  <div class="price-block">
+    <span class="label">The Dark Thigh Recovery System + 3 Bonuses</span>
+    <div class="old">₦12,000</div>
+    <div class="new">₦7,500</div>
+    <div class="scarcity">One-time payment. Instant delivery. No subscription.</div>
+    <a href="https://nestuge.com/darkthighrecovery" class="cta-btn">Get The Dark Thigh Recovery System</a>
+  </div>
+  <p class="cta-sub">Delivered straight to your email/WhatsApp within minutes of payment.</p>
+
+  <hr>
+
+  <!-- BONUSES -->
+  <h2>What You're Getting, In Full</h2>
+
+  <div class="bonus">
+    <span class="num">Bonus 1</span>
+    <h4>The Quick Reference Cheat Sheet</h4>
+    <p>Your entire daily routine, ingredient guide, and weekly checklist condensed onto one page — built to live on your phone or your bathroom mirror, so you never have to flip back through chapters once you know the system.</p>
+    <span class="value"><span class="free">FREE today</span> — included with every purchase</span>
+  </div>
+
+  <div class="bonus">
+    <span class="num">Bonus 2</span>
+    <h4>The Pharmacy &amp; Market Shopping List</h4>
+    <p>Exactly what to look for on a label — ingredient names, concentrations, and the phrases to use with a pharmacist — plus what to avoid entirely, including unregulated high-strength hydroquinone and generic "skin lightening" steroid creams.</p>
+    <span class="value"><span class="free">FREE today</span> — included with every purchase</span>
+  </div>
+
+  <div class="bonus">
+    <span class="num">Bonus 3</span>
+    <h4>The Flare-Up Fix</h4>
+    <p>What normal adjustment looks like versus what needs a pause, how to reintroduce an active after a reaction, and the specific signs that mean it's time to see a doctor instead of troubleshooting further.</p>
+    <span class="value"><span class="free">FREE today</span> — included with every purchase</span>
+  </div>
+
+  <div class="box" style="background:#fff;">
+    <h3>Everything You're Getting Today</h3>
+    <ul class="checklist">
+      <li><span class="lead">The Dark Thigh Recovery System</span> — the full 14-day guide</li>
+      <li><span class="lead">Bonus 1:</span> The Quick Reference Cheat Sheet</li>
+      <li><span class="lead">Bonus 2:</span> The Pharmacy &amp; Market Shopping List</li>
+      <li><span class="lead">Bonus 3:</span> The Flare-Up Fix</li>
+    </ul>
+    <p style="text-align:center;font-size:22px;font-weight:700;color:var(--cta);margin-top:18px;">You pay today: ₦7,500</p>
+    <a href="https://nestuge.com/darkthighrecovery" class="cta-btn">Get Instant Access</a>
+  </div>
+
+  <hr>
+
+  <!-- GUIDE HIGHLIGHTS -->
+  <h2 id="testimonials">What You'll Learn Inside</h2>
+  <div class="testi-instructions">
+    <strong>Inside the system:</strong> practical guidance on understanding dark inner-thigh pigmentation, choosing an appropriate active, introducing it gradually, protecting the skin, and maintaining a consistent routine.
+  </div>
+
+  <div class="testi-card">
+    <div class="row">
+      <div class="avatar">01</div>
+      <div class="who"><span class="n">Understand the Cause</span><br><span class="loc">Chapter 4</span></div>
+    </div>
+    <p>Learn how repeated friction, shaving, and tight clothing can contribute to irritation and post-inflammatory hyperpigmentation, and when darker skin may need professional assessment.</p>
+  </div>
+
+  <div class="testi-card">
+    <div class="row">
+      <div class="avatar">02</div>
+      <div class="who"><span class="n">Choose Your Active</span><br><span class="loc">Chapter 5</span></div>
+    </div>
+    <p>Compare niacinamide, glycolic acid, kojic acid, and azelaic acid, with guidance on choosing an option and introducing it carefully rather than combining several strong products at once.</p>
+  </div>
+
+  <div class="testi-card">
+    <div class="row">
+      <div class="avatar">03</div>
+      <div class="who"><span class="n">Follow the 14-Day Routine</span><br><span class="loc">Chapters 4–7</span></div>
+    </div>
+    <p>Follow a structured routine covering gentle cleansing, the selected active, moisturization, progress tracking, and the gradual approach recommended throughout the system.</p>
+  </div>
+
+  <div class="testi-card">
+    <div class="row">
+      <div class="avatar">04</div>
+      <div class="who"><span class="n">Protect Your Progress</span><br><span class="loc">Chapter 6</span></div>
+    </div>
+    <p>Learn why sun protection matters when the area is exposed and how avoiding unnecessary irritation can help prevent the cycle from continuing.</p>
+  </div>
+
+  <div class="testi-card">
+    <div class="row">
+      <div class="avatar">05</div>
+      <div class="who"><span class="n">Know When to Pause</span><br><span class="loc">Bonus 3</span></div>
+    </div>
+    <p>Use the Flare-Up Fix to distinguish normal adjustment from a reaction that calls for a pause, and recognize when it is better to seek professional medical advice.</p>
+  </div>
+
+  <hr>
+
+  <!-- COMMENTS -->
+  <h3>Comments</h3>
+  <div class="testi-instructions">
+    <strong>Illustrative comment examples:</strong> the names, locations, timestamps, reactions, and like counts below are sample content for the page design. Replace them with genuine reader comments before presenting them as real customer feedback.
+  </div>
+
+  <div class="comment">
+    <div class="avatar">AM</div>
+    <div class="body">
+      <div class="meta"><span class="n">Amaka M.</span><span class="loc">Lagos</span><span class="t">2 days ago</span></div>
+      <div class="text">I never realized that the friction from walking and tight clothes could be connected to the darker appearance. The part about stopping harsh scrubbing really made sense to me.</div>
+      <span class="like">Like (18)</span>
+    </div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">TO</div>
+    <div class="body">
+      <div class="meta"><span class="n">Tolu O.</span><span class="loc">Ibadan</span><span class="t">3 days ago</span></div>
+      <div class="text">The explanation of the four ingredients was the most useful part for me. I like that it doesn't tell everyone to use everything at once.</div>
+      <span class="like">Like (12)</span>
+    </div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">CN</div>
+    <div class="body">
+      <div class="meta"><span class="n">Chidinma N.</span><span class="loc">Abuja</span><span class="t">5 days ago</span></div>
+      <div class="text">I had been using different products randomly and didn't know whether I was irritating my skin more. The patch-testing and gradual approach is something I wish I had known earlier.</div>
+      <span class="like">Like (21)</span>
+    </div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">FA</div>
+    <div class="body">
+      <div class="meta"><span class="n">Favour A.</span><span class="loc">Port Harcourt</span><span class="t">6 days ago</span></div>
+      <div class="text">The section about sunscreen surprised me. I honestly never thought about protecting the area when it would be exposed to sunlight.</div>
+      <span class="like">Like (9)</span>
+    </div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">YK</div>
+    <div class="body">
+      <div class="meta"><span class="n">Yinka K.</span><span class="loc">Benin City</span><span class="t">1 week ago</span></div>
+      <div class="text">I like how the routine is broken down instead of just saying to buy a cream. The day-by-day structure makes it much easier to follow.</div>
+      <span class="like">Like (15)</span>
+    </div>
+  </div>
+
+  <div class="comment">
+    <div class="avatar">NS</div>
+    <div class="body">
+      <div class="meta"><span class="n">Ngozi S.</span><span class="loc">Enugu</span><span class="t">1 week ago</span></div>
+      <div class="text">The reminder not to scrub aggressively was important. I always assumed more scrubbing meant better results, so that section changed how I approach the area.</div>
+      <span class="like">Like (11)</span>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- QUICK REFERENCE COMPONENT -->
+  <h3>Quick Routine Preview</h3>
+  <div class="wa-demo">
+    <div class="wa-head">14-Day Routine Preview<span class="sub">Key steps from the system</span></div>
+    <div class="wa-body">
+      <div class="wa-bubble in">Cleanse gently with a mild, fragrance-free cleanser.<span class="t">Step 1</span></div>
+      <div class="wa-bubble in">Pat the area completely dry. Don't rub.<span class="t">Step 2</span></div>
+      <div class="wa-bubble out">Apply your chosen active as directed, starting gradually.<span class="t">Step 3</span></div>
+      <div class="wa-bubble in">Follow with a simple, fragrance-free moisturizer.<span class="t">Step 4</span></div>
+    </div>
+  </div>
+  <p class="wa-note">Routine preview based on the guide. Always follow the product label and patch-test new products.</p>
+
+  <hr>
+
+  <!-- HOW IT WORKS -->
+  <h2>Once You Click That Button</h2>
+  <ol>
+    <li>You're taken to a secure payment page.</li>
+    <li>Complete payment — card, bank transfer, or your usual method.</li>
+    <li>Your guide and all three bonuses land in your email/WhatsApp within minutes.</li>
+  </ol>
+  <p style="font-style:italic;color:var(--ink-soft);">It's me, Babatunde. As long as your payment goes through, your access is guaranteed.</p>
+
+  <hr>
+
+  <!-- GUARANTEE -->
+  <div class="guarantee">
+    <h3>30-Day Money-Back Guarantee</h3>
+    <p>Follow the system as written for 30 days. If you've done that and you're not seeing a difference, email me and I'll refund you in full — no lengthy explanation required.</p>
+  </div>
+
+  <hr>
+
+  <!-- TWO CHOICES -->
+  <h2>Right Now, You Have Two Choices</h2>
+  <div class="choices">
+    <div class="choice no">
+      <h4>If you close this page</h4>
+      <ul>
+        <li>The same routine you've already tried keeps not working.</li>
+        <li>The next beach trip gets the same excuse as the last one.</li>
+        <li>You keep quietly Googling this at 1am, alone.</li>
+        <li>Six months from now, nothing's different.</li>
+        <li>The mental math before getting dressed continues.</li>
+      </ul>
+    </div>
+    <div class="choice yes">
+      <h4>If you get the guide today</h4>
+      <ul>
+        <li>You understand exactly why this happened — no more guessing.</li>
+        <li>You have a specific ingredient and routine, chosen for your skin.</li>
+        <li>You know what actually protects the progress you make.</li>
+        <li>You have a plan to keep it from quietly coming back.</li>
+        <li>Fourteen days from now, you're somewhere new.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="price-block">
+    <span class="label">The Dark Thigh Recovery System + 3 Bonuses</span>
+    <div class="old">₦12,000</div>
+    <div class="new">₦7,500</div>
+    <div class="scarcity">One-time payment. Instant delivery.</div>
+    <a href="https://nestuge.com/darkthighrecovery" class="cta-btn">Start My 14 Days</a>
+  </div>
+
+  <hr>
+
+  <!-- FAQ -->
+  <h2>Questions</h2>
+
+  <details>
+    <summary>How is the guide delivered?</summary>
+    <p>Straight to your email and/or WhatsApp within minutes of payment, as a PDF you can read on your phone or print.</p>
+  </details>
+  <details>
+    <summary>Are the ingredients easy to find?</summary>
+    <p>Yes — all four are available at general pharmacies and supermarket skincare aisles. The Pharmacy Shopping List bonus tells you exactly what to ask for.</p>
+  </details>
+  <details>
+    <summary>What if my case feels more severe or long-standing?</summary>
+    <p>The guide covers how to choose a stronger active (like kojic acid) for stubborn, long-standing discoloration, and how to adjust the routine if progress feels slow by day 14.</p>
+  </details>
+  <details>
+    <summary>What if I notice something that seems different from typical darkening?</summary>
+    <p>Chapter 4 walks through a self-check, including signs (velvety texture, darkening in other skin folds) that are worth having a doctor look at rather than self-treating. This guide is educational, not a diagnosis.</p>
+  </details>
+  <details>
+    <summary>Is the guarantee real?</summary>
+    <p>Yes. Follow the system for 30 days — if it hasn't worked, email for a full refund.</p>
+  </details>
+  <details>
+    <summary>Why is this different from everything else I've tried?</summary>
+    <p>Because it treats the actual cause — repeated irritation triggering excess melanin — instead of just the surface. It's built around ingredients dermatology backs, not folklore, with a system for keeping results instead of watching them fade back in.</p>
+  </details>
+
+  <hr>
+
+  <p style="font-style:italic;">With care for your skin,<br><span style="font-size:22px;font-family:'Iowan Old Style',Georgia,serif;">Babatunde</span></p>
+
+  <hr>
+
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> This guide is provided for general educational and informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. The author is not a licensed medical doctor or dermatologist. Always seek the advice of a qualified healthcare provider with any questions regarding a medical condition, especially if you notice symptoms beyond simple skin darkening, such as thickened or velvety skin in multiple body areas. Individual results may vary. Patch testing is strongly recommended before applying any new product to a larger area of skin.
+  </div>
+
+</div>
+
+<footer>
+  © Babatunde S. — All rights reserved.
+</footer>
+
+</body>
+</html>
